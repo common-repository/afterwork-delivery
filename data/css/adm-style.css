@@ -1,0 +1,135 @@
+.wtlv .wp-core-ui .button-primary,
+.wtlv .wp-core-ui .button {
+    margin: 10px 0 0 0;
+}
+
+.wtlv .widefat td {
+    vertical-align: middle;
+}
+
+.wtlv .wrap>h2:first-child {
+    font-size: 1.3em;
+    margin: 3em 0 1em 0;
+    display: block;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1;
+}
+
+#wtlv_timetable,
+#wtlv_weight {
+    margin: 0 0 30px 0;
+}
+
+#wtlv-preloader {
+    margin: auto;
+    width: 60px;
+    height: 10px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+#wtlv-preloader > div {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-bottom: 0.6em;
+    animation: stretchdelay 1.38s infinite ease-in-out;
+    -o-animation: stretchdelay 1.38s infinite ease-in-out;
+    -ms-animation: stretchdelay 1.38s infinite ease-in-out;
+    -webkit-animation: stretchdelay 1.38s infinite ease-in-out;
+    -moz-animation: stretchdelay 1.38s infinite ease-in-out;
+}
+#wtlv-preloader .cssload-rect2 {
+    animation-delay: -1.15s;
+    -o-animation-delay: -1.15s;
+    -ms-animation-delay: -1.15s;
+    -webkit-animation-delay: -1.15s;
+    -moz-animation-delay: -1.15s;
+}
+#wtlv-preloader .cssload-rect3 {
+    animation-delay: -0.92s;
+    -o-animation-delay: -0.92s;
+    -ms-animation-delay: -0.92s;
+    -webkit-animation-delay: -0.92s;
+    -moz-animation-delay: -0.92s;
+}
+
+#wtlv-preloader-mask {
+    background-color: rgba(0, 0, 0, .8);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleX(0.8);
+        background-color: rgb(46,88,101);
+        box-shadow: 0 0 0 rgba(10,10,10,0.1);
+    }
+    20% {
+        transform: scaleX(1);
+        background-color: rgb(0,177,146);
+        box-shadow: 0 9px 11px rgba(10,10,10,0.4);
+    }
+}
+
+@-o-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -o-transform: scaleX(0.8);
+        background-color: rgb(46,88,101);
+        box-shadow: 0 0 0 rgba(10,10,10,0.1);
+    }
+    20% {
+        -o-transform: scaleX(1);
+        background-color: rgb(0,177,146);
+        box-shadow: 0 9px 11px rgba(10,10,10,0.4);
+    }
+}
+
+@-ms-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -ms-transform: scaleX(0.8);
+        background-color: rgb(46,88,101);
+        box-shadow: 0 0 0 rgba(10,10,10,0.1);
+    }
+    20% {
+        -ms-transform: scaleX(1);
+        background-color: rgb(0,177,146);
+        box-shadow: 0 9px 11px rgba(10,10,10,0.4);
+    }
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleX(0.8);
+        background-color: rgb(46,88,101);
+        box-shadow: 0 0 0 rgba(10,10,10,0.1);
+    }
+    20% {
+        -webkit-transform: scaleX(1);
+        background-color: rgb(0,177,146);
+        box-shadow: 0 9px 11px rgba(10,10,10,0.4);
+    }
+}
+
+@-moz-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -moz-transform: scaleX(0.8);
+        background-color: rgb(46,88,101);
+        box-shadow: 0 0 0 rgba(10,10,10,0.1);
+    }
+    20% {
+        -moz-transform: scaleX(1);
+        background-color: rgb(0,177,146);
+        box-shadow: 0 9px 11px rgba(10,10,10,0.4);
+    }
+}
